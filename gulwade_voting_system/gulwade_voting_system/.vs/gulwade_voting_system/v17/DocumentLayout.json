@@ -1,0 +1,298 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|c:\\users\\hp\\source\\repos\\gulwade_voting_system\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\seeresults.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:seeresults.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\home.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:home.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\home.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:home.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\import.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:import.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\import.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:import.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:adminlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:adminlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\insertcandi.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:insertcandi.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\insertcandi.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:insertcandi.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\content\\bootstrap-grid.rtl.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8C7AA216-2CA0-47D2-AAE9-F453365E6777}|gulwade_voting_system.csproj|solutionrelative:content\\bootstrap-grid.rtl.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "seeresults.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\seeresults.aspx",
+              "RelativeDocumentMoniker": "seeresults.aspx",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\seeresults.aspx",
+              "RelativeToolTip": "seeresults.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-06T12:42:34.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "admin.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\admin.aspx",
+              "RelativeDocumentMoniker": "admin.aspx",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\admin.aspx",
+              "RelativeToolTip": "admin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-01T13:23:42.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "home.Master",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\home.Master",
+              "RelativeDocumentMoniker": "home.Master",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\home.Master",
+              "RelativeToolTip": "home.Master",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-29T12:27:02.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "home.Master.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\home.Master.cs",
+              "RelativeDocumentMoniker": "home.Master.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\home.Master.cs",
+              "RelativeToolTip": "home.Master.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T12:27:05.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\login.aspx",
+              "RelativeDocumentMoniker": "login.aspx",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\login.aspx",
+              "RelativeToolTip": "login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-28T20:20:04.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "home.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\home.aspx",
+              "RelativeDocumentMoniker": "home.aspx",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\home.aspx",
+              "RelativeToolTip": "home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-28T20:25:19.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "import.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\import.aspx",
+              "RelativeDocumentMoniker": "import.aspx",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\import.aspx",
+              "RelativeToolTip": "import.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-01T12:56:16.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "import.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\import.aspx.cs",
+              "RelativeDocumentMoniker": "import.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\import.aspx.cs",
+              "RelativeToolTip": "import.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T12:57:49.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "admin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\admin.aspx.cs",
+              "RelativeDocumentMoniker": "admin.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\admin.aspx.cs",
+              "RelativeToolTip": "admin.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T13:23:47.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "adminlogin.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\adminlogin.aspx",
+              "RelativeDocumentMoniker": "adminlogin.aspx",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\adminlogin.aspx",
+              "RelativeToolTip": "adminlogin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-06T12:24:54.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "adminlogin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\adminlogin.aspx.cs",
+              "RelativeDocumentMoniker": "adminlogin.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\adminlogin.aspx.cs",
+              "RelativeToolTip": "adminlogin.aspx.cs",
+              "ViewState": "AQIAABEAAADAbIitnmMqwBYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T12:25:24.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\login.aspx.cs",
+              "RelativeDocumentMoniker": "login.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\login.aspx.cs",
+              "RelativeToolTip": "login.aspx.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:24:19.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "insertcandi.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\insertcandi.aspx.cs",
+              "RelativeDocumentMoniker": "insertcandi.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\insertcandi.aspx.cs",
+              "RelativeToolTip": "insertcandi.aspx.cs",
+              "ViewState": "AQIAAMAAAAAA/I2WVnMUwMEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T12:24:37.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "insertcandi.aspx",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\insertcandi.aspx",
+              "RelativeDocumentMoniker": "insertcandi.aspx",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\insertcandi.aspx",
+              "RelativeToolTip": "insertcandi.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-29T12:20:52.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-04T10:52:08.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "home.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\home.aspx.cs",
+              "RelativeDocumentMoniker": "home.aspx.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\home.aspx.cs",
+              "RelativeToolTip": "home.aspx.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAuwF0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T20:29:23.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "bootstrap-grid.rtl.css.map",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\Content\\bootstrap-grid.rtl.css.map",
+              "RelativeDocumentMoniker": "Content\\bootstrap-grid.rtl.css.map",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\gulwade_voting_system\\Content\\bootstrap-grid.rtl.css.map",
+              "RelativeToolTip": "Content\\bootstrap-grid.rtl.css.map",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-28T20:22:21.638Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
