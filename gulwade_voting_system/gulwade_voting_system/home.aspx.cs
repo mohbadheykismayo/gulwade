@@ -112,7 +112,7 @@ namespace gulwade_voting_system
 
 
         [WebMethod]
-        public static string SubmitData(int std, string name, int xigenValue, int productValue)
+        public static string SubmitData(string std, string name, int xigenValue, int productValue)
         {
             string cs = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
 

@@ -5,6 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+ <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
     <link href="assets/bootstrap.min.css" rel="stylesheet" />
       <style>
   .user-card {
@@ -84,7 +86,7 @@ background-image: linear-gradient(
 </head>
 <body>
     <form id="form1" runat="server">
-             <asp:Label ID="Label2" runat="server" Visible="false" ></asp:Label>
+       <asp:Label ID="Label2" runat="server" Visible="false"></asp:Label>
 <div class="container-fluid py-5" style="background-color: #f0f8ff;">
     <!-- Header -->
     <div class="text-center mb-5">
@@ -95,44 +97,44 @@ background-image: linear-gradient(
     <!-- Row for Statistics -->
     <div class="row g-4 text-center">
         <!-- Positions Card -->
-        <div class="col-12 col-md-3">
+        <div class="col-6 col-sm-6 col-md-3">
             <div class="card shadow border-0" style="background: linear-gradient(135deg, #0066cc, #00cc99); border-radius: 20px;">
                 <div class="card-body">
-                    <h3 class="fw-bold mb-3" style="color: #fff;"><i class="fas fa-user-tie"></i> Positions</h3>
-                    <p style="color: #eaf6ff;">Number of Positions</p>
+                    <h3 class="fw-bold mb-3" style="color: #fff;"><i class="fas fa-user-tie"></i> Jagooyinka</h3>
+                    <p style="color: #eaf6ff;">Tirada Jagooyinka</p>
                     <span class="text-white display-4">2</span>
                 </div>
             </div>
         </div>
         
         <!-- Candidates Card -->
-        <div class="col-12 col-md-3">
+        <div class="col-6 col-sm-6 col-md-3">
             <div class="card shadow border-0" style="background: linear-gradient(135deg, #3399ff, #33cc99); border-radius: 20px;">
                 <div class="card-body">
                     <h3 class="fw-bold mb-3" style="color: #fff;"><i class="fas fa-users"></i> Tartamayaasha</h3>
-                    <p style="color: #eaf6ff;">Number of Candidates</p>
+                    <p style="color: #eaf6ff;">Tirada Tartamayaasha</p>
                     <span class="text-white display-4" id="candi">A</span>
                 </div>
             </div>
         </div>
 
         <!-- Voters Card -->
-        <div class="col-12 col-md-3">
+        <div class="col-6 col-sm-6 col-md-3">
             <div class="card shadow border-0" style="background: linear-gradient(135deg, #66ccff, #00cc66); border-radius: 20px;">
                 <div class="card-body">
-                    <h3 class="fw-bold mb-3" style="color: #fff;"><i class="fas fa-vote-yea"></i> Codadka Guud</h3>
-                    <p style="color: #eaf6ff;">Number of Voters</p>
+                    <h3 class="fw-bold mb-3" style="color: #fff;"><i class="fas fa-vote-yea"></i>Codeeyaasha</h3>
+                    <p style="color: #eaf6ff;">Tirada Codeeyaasha</p>
                     <span class="text-white display-4" id="voters">A</span>
                 </div>
             </div>
         </div>
 
         <!-- Votes Card -->
-        <div class="col-12 col-md-3">
+        <div class="col-6 col-sm-6 col-md-3">
             <div class="card shadow border-0" style="background: linear-gradient(135deg, #3399ff, #00cc66); border-radius: 20px;">
                 <div class="card-body">
-                    <h3 class="fw-bold mb-3" style="color: #fff;"><i class="fas fa-ballot"></i> Inta Codeyse</h3>
-                    <p style="color: #eaf6ff;">Total Votes</p>
+                    <h3 class="fw-bold mb-3" style="color: #fff;"><i class="fas fa-ballot"></i> Inta Codeysay</h3>
+                    <p style="color: #eaf6ff;">Tirada Inta Codeysey</p>
                     <span class="text-white display-4" id="votees">A</span>
                 </div>
             </div>
@@ -141,15 +143,15 @@ background-image: linear-gradient(
 
     <!-- Row for Progress Bars (Voting Results) -->
     <div class="row mt-5">
-        <div class="col-md-5 offset-md-1">
-            <h4 class="fw-bold text-dark mb-3">Gudoomiyaha</h4>
+        <div class="col-md-6">
+            <h4 class="fw-bold text-dark mb-3 text-center">Gudoomiyaha</h4>
             <div id="progressBarsContainer" class="user-container">
                 <!-- Progress bars dynamically added here -->
             </div>
         </div>
 
-        <div class="col-md-5">
-            <h4 class="fw-bold text-dark mb-3">G.Kuxigeenka</h4>
+        <div class="col-md-6">
+            <h4 class="fw-bold text-dark mb-3 text-center">G.Kuxigeenka</h4>
             <div id="progressBarsContainer1" class="user-container">
                 <!-- Progress bars dynamically added here -->
             </div>
@@ -165,17 +167,18 @@ background-image: linear-gradient(
 
     <!-- Row for Signatures -->
     <div class="row mt-5 p-2 text-dark">
-        <div class="col-md-5 text-center">
+        <div class="col-12 col-md-5 text-center">
             <hr />
             <p class="fw-bold">Election Office Signature</p>
         </div>
         <div class="col-md-2"></div>
-        <div class="col-md-5 text-center">
+        <div class="col-12 col-md-5 text-center">
             <hr />
             <p class="fw-bold">Election Chairperson Signature</p>
         </div>
     </div>
 </div>
+
 
     </form>
     
@@ -298,20 +301,24 @@ background-image: linear-gradient(
                 var percentage = ((voteCount / data.counts.reduce((a, b) => a + b, 0)) * 100).toFixed(2);
 
                 // Create a user card with image and name
-                var userCardHtml = '<div class="user-card">' +
+                var userCardHtml =
+                    '<div class="d-flex justify-content-center">' +  // Flex container for centering
+                    '<div class="user-card text-center">' +
                     '<div class="user-details">' +
                     '<img class="user-image" src="' + imageUrl + '" alt="User Image">' +
                     '<div><strong class="text-dark">' + userName + '</strong></div>' +
-                    '<div><strong class="text-dark">(' + voteCount + '  votes)</strong></div>' +
+                    '<div><strong class="text-dark">(' + voteCount + ' Cod)</strong></div>' +
+                    '</div>' +
                     '</div>' +
                     '</div>';
+
 
                 $("#progressBarsContainer").append(userCardHtml);
 
                 // Create a separate card for the progress bar with animation class
                 var progressBarCardHtml = '<div class="progress-bar-card">' +
                     '<div class="progress-bar-container ">' +
-                    '<div id="progressBarUser' + (i + 1) + '" class="progress-bar animated" role="progressbar" style="width: 0%;" aria-valuenow="' + voteCount + '" aria-valuemin="0" aria-valuemax="100">' + '0.00% (' + voteCount + ' votes)</div>' +
+                    '<div id="progressBarUser' + (i + 1) + '" class="progress-bar animated" role="progressbar" style="width: 0%;" aria-valuenow="' + voteCount + '" aria-valuemin="0" aria-valuemax="100">' + '0.00% (' + voteCount + ' Cod)</div>' +
                     '</div>' +
 
                     '</div>';
@@ -330,7 +337,7 @@ background-image: linear-gradient(
                     }, {
                         duration: 1000,
                         step: function () {
-                            $("#progressBarUser" + (i + 1)).text(this.countNum.toFixed(2) + "% (" + voteCount + " votes)");
+                            $("#progressBarUser" + (i + 1)).text(this.countNum.toFixed(2) + "% (" + voteCount + " Cod)");
                         }
                     });
                 })(i, parseFloat(percentage), voteCount);
@@ -406,20 +413,24 @@ background-image: linear-gradient(
                 var percentage = ((voteCount / data.counts.reduce((a, b) => a + b, 0)) * 100).toFixed(2);
 
                 // Create a user card with image and name
-                var userCardHtml = '<div class="user-card">' +
+                var userCardHtml =
+                    '<div class="d-flex justify-content-center">' +  // Flex container for centering
+                    '<div class="user-card">' +
                     '<div class="user-details">' +
                     '<img class="user-image" src="' + imageUrl + '" alt="User Image">' +
                     '<div><strong class="text-dark">' + userName + '</strong></div>' +
-                    '<div><strong class="text-dark">(' + voteCount + '  votes)</strong></div>' +
+                    '<div><strong class="text-dark">(' + voteCount + ' Cod)</strong></div>' +
+                    '</div>' +
                     '</div>' +
                     '</div>';
+
 
                 $("#progressBarsContainer1").append(userCardHtml);
 
                 // Create a separate card for the progress bar with animation class
                 var progressBarCardHtml = '<div class="progress-bar-card">' +
                     '<div class="progress-bar-container">' +
-                    '<div id="progressBarUser1' + (i + 1) + '" class="progress-bar animated" role="progressbar" style="width: 0%;" aria-valuenow="' + voteCount + '" aria-valuemin="0" aria-valuemax="100">' + '0.00% (' + voteCount + ' votes)</div>' +
+                    '<div id="progressBarUser1' + (i + 1) + '" class="progress-bar animated" role="progressbar" style="width: 0%;" aria-valuenow="' + voteCount + '" aria-valuemin="0" aria-valuemax="100">' + '0.00% (' + voteCount + ' Cod)</div>' +
                     '</div>' +
                     '</div>';
 
@@ -437,7 +448,7 @@ background-image: linear-gradient(
                     }, {
                         duration: 1000,
                         step: function () {
-                            $("#progressBarUser1" + (i + 1)).text(this.countNum.toFixed(2) + "% (" + voteCount + " votes)");
+                            $("#progressBarUser1" + (i + 1)).text(this.countNum.toFixed(2) + "% (" + voteCount + " Cod)");
                         }
                     });
                 })(i, parseFloat(percentage), voteCount);

@@ -109,38 +109,38 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <!-- Header Section -->
-        <div class="container-fluid header py-3">
-            <div class="row align-items-center">
-                <div class="col-3 text-center">
-                    <img class="bg-white rounded-circle p-2" src="images/LOOGO_-_Copy-removebg-preview.png" alt="Gulwade Logo" />
-                    <span class="h5 d-block mt-2 text-white">Gulwade Primary And Secondary School</span>
-                </div>
-                <div class="col-6 text-center">
-                    <h2 class="fw-bold text-white">Student Voting System</h2>
-                </div>
-                <div class="col-3 d-flex justify-content-around text-white">
-                    <div>
-                        <span class="h5"><asp:Label ID="Label1" runat="server"></asp:Label></span>
-                    </div>
-                    <div>
-                        <span class="h5"><asp:Label ID="Label2" runat="server"></asp:Label></span>
-                    </div>
-                </div>
+     <!-- Header Section -->
+<div class="container-fluid header py-3">
+    <div class="row align-items-center text-center text-md-start">
+        <div class="col-md-3 col-12 mb-3 mb-md-0">
+            <img class="bg-white rounded-circle p-2" src="images/LOOGO_-_Copy-removebg-preview.png" alt="Gulwade Logo" />
+            <span class="h5 d-block mt-2 text-white">Gulwade Primary And Secondary School</span>
+        </div>
+        <div class="col-md-6 col-12 mb-3 mb-md-0">
+            <h2 class="fw-bold text-white">Student Voting System</h2>
+        </div>
+        <div class="col-md-3 col-12 d-flex justify-content-around text-white">
+            <div>
+                <span class="h5"><asp:Label ID="Label1" runat="server"></asp:Label></span>
+            </div>
+            <div>
+                <span class="h5"><asp:Label ID="Label2" runat="server"></asp:Label></span>
             </div>
         </div>
+    </div>
+</div>
 
         <!-- Main Content -->
         <div class="container py-5">
-            <h3 class="mb-4 text-primary text-center">Chairperson Candidates</h3>
+            <h3 class="mb-4 text-primary text-center">Gudoomiyaha</h3>
             <div class="row" id="product-container"></div>
 
-            <h3 class="mt-5 mb-4 text-primary text-center">Vice Chairperson Candidates</h3>
+            <h3 class="mt-5 mb-4 text-primary text-center">G.Kuxigeenka</h3>
             <div class="row" id="xigeen-container"></div>
 
             <div class="row mt-5">
                 <div class="col-12 text-center">
-                    <button id="btnsubmit" class="btn btn-success btn-lg px-5 fw-bold shadow" type="button" onclick="handleSubmit()">Submit Your Vote</button>
+                    <button id="btnsubmit" class="btn btn-success btn-lg px-5 fw-bold shadow" type="button" onclick="handleSubmit()">Dhiibo Codkaaga</button>
                 </div>
             </div>
         </div>
@@ -161,7 +161,7 @@
                         $.each(data.d, function (index, product) {
                             const imgSrc = `${product.ImageUrl}`;
                             const productCard = `
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="col-4 col-sm-6 col-md-4 col-lg-3 mb-4">
                                     <label class="card-input">
                                         <input type="radio" name="product" value="${product.Id}" class="card-input-element" />
                                         <div class="card p-3 h-100">
@@ -191,7 +191,7 @@
                         $.each(data.d, function (index, product) {
                             const imgSrc = `${product.ImageUrl}`;
                             const productCard = `
-                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="col-4 col-sm-6 col-md-4 col-lg-3 mb-4">
                                     <label class="card-input">
                                         <input type="radio" name="xigen" value="${product.Id}" class="card-input-element" />
                                         <div class="card p-3 h-100">
@@ -269,13 +269,13 @@
                 });
 
                 swalWithBootstrapButtons.fire({
-                    title: "Are you sure about your vote?",
-                    html: `<span class="fw-bold fs-5 text-primary">President:<br> ${productName}</span><br> 
-               <span class="fw-bold fs-5 text-success">Vice President:<br> ${xigenName}</span>`,
+                    title: "Ma Hubtaa Codkaaga?",
+                    html: `<span class="fw-bold fs-5 text-primary">Gudoomiyaha:<br> ${productName}</span><br> 
+               <span class="fw-bold fs-5 text-success">G.Kuxigeenka:<br> ${xigenName}</span>`,
                     icon: "warning",
                     showCancelButton: true,
-                    confirmButtonText: "Yes, I Confirm!",
-                    cancelButtonText: "No, Cancel!",
+                    confirmButtonText: "Haa, Waan Hubaa!",
+                    cancelButtonText: "Maya,Ma Hubi!",
                     reverseButtons: true
                 }).then((result) => {
                     if (result.isConfirmed) {
@@ -289,8 +289,8 @@
             // Function to handle invalid selections
             function showInvalidSelectionDialog(std, name, productName, xigenName) {
                 Swal.fire({
-                    title: "Invalid Selection",
-                    text: `Please select valid options for Product and Xigen.`,
+                    title: "Ayaga Dhan Wada Dooro",
+                    text: `Fadlan Dooro Gudoomiyaha Iyo G.Kuxigeenka.`,
                     icon: "error"
                 });
             }
@@ -310,8 +310,8 @@
                     contentType: "application/json",
                     success: function (response) {
                         Swal.fire({
-                            title: "Success!",
-                            text: "Your vote has been submitted.",
+                            title: "Waad Dhiibata Codkaaga!",
+                            text: "Mahadsanid Sidaad Codkaaga U Dhiibatay.",
                             icon: "success",
                             timer: 3000,
                             showConfirmButton: false
@@ -336,8 +336,8 @@
             // Function to show cancellation dialog
             function showCancelledDialog() {
                 Swal.fire({
-                    title: "Cancelled",
-                    text: "You have not voted yet.",
+                    title: "Waad Ka Laabatay",
+                    text: "Wali Maadan Codeen.",
                     icon: "error",
                     timer: 3000,
                     showConfirmButton: false
